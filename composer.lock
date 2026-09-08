@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10c01870f3f4b4452111cb29a12a6184",
+    "content-hash": "c653b41c93d9792b15cb2604071702d2",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4024,6 +4024,69 @@
             "time": "2026-03-19T18:16:17+00:00"
         },
         {
+            "name": "orangehill/iseed",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orangehill/iseed.git",
+                "reference": "15ce002707c8cc3806544c0a24661e3b619cb9d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orangehill/iseed/zipball/15ce002707c8cc3806544c0a24661e3b619cb9d9",
+                "reference": "15ce002707c8cc3806544c0a24661e3b619cb9d9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.0.2"
+            },
+            "require-dev": {
+                "illuminate/filesystem": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "mockery/mockery": "^1.0.0",
+                "phpunit/phpunit": "^9.0|^10.0|^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Orangehill\\Iseed\\IseedServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orangehill\\Iseed": "src/"
+                },
+                "classmap": [
+                    "src/Orangehill/Iseed/Exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tihomir Opacic",
+                    "email": "tihomir.opacic@orangehilldev.com"
+                }
+            ],
+            "description": "Generate a new Laravel database seed file based on data from the existing database table.",
+            "keywords": [
+                "artisan",
+                "generators",
+                "laravel",
+                "seed"
+            ],
+            "support": {
+                "issues": "https://github.com/orangehill/iseed/issues",
+                "source": "https://github.com/orangehill/iseed/tree/v3.8.1"
+            },
+            "time": "2026-06-24T08:59:33+00:00"
+        },
+        {
             "name": "phpoffice/phpspreadsheet",
             "version": "5.9.0",
             "source": {
@@ -6084,12 +6147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravelspine/laravelspine.git",
-                "reference": "31ab32bf117b85770bef07babab4f99cd5ec5a20"
+                "reference": "ae69e2467fcb4b6f152abe462ac70eff70a998d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravelspine/laravelspine/zipball/31ab32bf117b85770bef07babab4f99cd5ec5a20",
-                "reference": "31ab32bf117b85770bef07babab4f99cd5ec5a20",
+                "url": "https://api.github.com/repos/laravelspine/laravelspine/zipball/ae69e2467fcb4b6f152abe462ac70eff70a998d9",
+                "reference": "ae69e2467fcb4b6f152abe462ac70eff70a998d9",
                 "shasum": ""
             },
             "require": {
@@ -6134,7 +6197,7 @@
                 "source": "https://github.com/laravelspine/laravelspine/tree/main",
                 "issues": "https://github.com/laravelspine/laravelspine/issues"
             },
-            "time": "2026-09-05T20:40:01+00:00"
+            "time": "2026-09-07T13:43:52+00:00"
         },
         {
             "name": "stripe/stripe-php",

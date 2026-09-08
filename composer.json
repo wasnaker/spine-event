@@ -16,6 +16,7 @@
         "laravel/sanctum": "^4.3",
         "laravel/tinker": "^2.10.1",
         "nwidart/laravel-modules": "*",
+        "orangehill/iseed": "^3.8",
         "spatie/laravel-permission": "^8.3",
         "spatie/laravel-query-builder": "^6.4",
         "spatie/laravel-tags": "^4.12",
